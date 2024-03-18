@@ -54,15 +54,15 @@ const Categories = () => {
             <img src={CategoryImage4} alt="" />
           </div>
         </div>
-        <div className="flex-[5] flex gap-2 h-full">
+        <div className="flex-[5] flex-col flex gap-2 h-full">
           <div className="h-full w-full flex-[6] bg-gray-100 flex justify-center items-center">
             <img src={CategoryImage1} alt="category image" />
           </div>
-          <div className="flex-4 flex flex-col gap-2 h-full">
-            <div className=" bg-gray-100 flex justify-center items-center h-[49%] ">
+          <div className="flex-4 flex  gap-2 h-full">
+            <div className="flex-1 bg-gray-100 flex justify-center items-center  h-[90%]">
               <img src={CategoryImage2} alt="category image" />
             </div>
-            <div className=" bg-gray-100 h-[49%]">
+            <div className="flex-1 bg-gray-100 h-[90%]">
               <img src={CategoryImage3} alt="category image" />
             </div>
           </div>

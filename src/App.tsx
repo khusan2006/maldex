@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Questions from "./components/Questions";
 import Sales from "./components/Sales";
 import WhyUs from "./components/WhyUs";
 
@@ -23,6 +24,7 @@ const App = () => {
       <Clients />
       <Cta />
       <Gallery />
+      <Questions />
       <Footer />
     </>
   );
