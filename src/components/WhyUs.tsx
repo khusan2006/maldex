@@ -55,20 +55,20 @@ const WhyUs = () => {
           </ul>
           <div className="grid grid-cols-2 gap-3 mt-3">
             <div className="flex items-center gap-2">
-              <img src={RussiaFlag} alt="" />
-              Россия
+              <img src={RussiaFlag} className="h-8 w-8 md:w-auto md:h-auto" alt="" />
+              <span className="text-xs md:text-sm">Россия</span>
             </div>
             <div className="flex items-center gap-2">
-              <img src={RussiaFlag} alt="" />
-              Россия
+              <img src={RussiaFlag} className="h-8 w-8 md:w-auto md:h-auto" alt="" />
+              <span className="text-xs md:text-sm">Россия</span>
             </div>
             <div className="flex items-center gap-2">
-              <img src={RussiaFlag} alt="" />
-              Россия
+              <img src={RussiaFlag} className="h-8 w-8 md:w-auto md:h-auto" alt="" />
+              <span className="text-xs md:text-sm">Россия</span>
             </div>
             <div className="flex items-center gap-2">
-              <img src={RussiaFlag} alt="" />
-              Россия
+              <img src={RussiaFlag} className="h-8 w-8 md:w-auto md:h-auto" alt="" />
+              <span className="text-xs md:text-sm">Россия</span>
             </div>
           </div>
         </li>
